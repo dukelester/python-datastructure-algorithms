@@ -92,4 +92,18 @@ inOrderTraversal(root)
 The Search, insert and deletion has the best complexity of O(log n) at the best case and at the worst case
 it has the O(n)
 
+applied at :
+1. virtual memory management in linux
+2. dynamic sorting
+3. multilevel indexing in the database
+
 '''
+
+def hello(k_times):
+    while k_times > 2:
+        if k_times % 2 == 0:
+            hello(k_times)
+        return "done"
+
+
+hello(6)
