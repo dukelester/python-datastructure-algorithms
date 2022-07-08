@@ -21,9 +21,9 @@ def preorderTraversal(root):
         #traverse the root
         print(str(root.value) + "->", end="")
         #traverse the left
-        postorderTraversal(root.left)
+        preorderTraversal(root.left)
         #traverse the right
-        postorderTraversal(root.right)
+        preorderTraversal(root.right)
       
 
 
@@ -42,9 +42,14 @@ def postorderTraversal(root):
 root = TreeNode(1)
 root.left = TreeNode(2)
 root.right = TreeNode(3)
+root.right.left = TreeNode(20)
 
 root.left.left = TreeNode(5)
 root.right.right = TreeNode(7)
+
+root.left.right = TreeNode(80)
+root.left.left.right = TreeNode(100)
+root.left.left.left = TreeNode(90)
 print(f" \n inorder traversal is \n")
 inorderTraversal(root)
 print(' \nPostorder traversal\t')
