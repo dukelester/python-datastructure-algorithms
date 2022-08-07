@@ -1,0 +1,28 @@
+intro to data structures
+
+
+Data structures a systematic way of storing and organizing data in a memory of a computer
+
+Algorithms ==> set of instructions for a computer to complete a task
+
+types of data structures:
+    primitive ==> built in list, tuple, set, dictionary
+    non primitive ==> user defined ==> trees, stack, queue, linked lists, graphs
+
+Types of Algorithms:
+`   1. Recursive Algorithms 
+    2. Devide and conquer algorithms
+    3. Dynamic Programming algorithms (use memory)
+    4. Greedy algorithms
+    5. Brute force algorithms
+    6. Randomized algorithms
+
+
+Analysis of algorithms
+======================
+The measure of the efficiency of an algorithm using Time complexity and space complexity
+constant time operations:
+    1.declarations 2.assignments 3.Arithmetic operations 4. Comparison statements 5.calling functions 6.return statements
+
+    (average case, worst case, best case)
+    
