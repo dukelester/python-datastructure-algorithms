@@ -6,7 +6,7 @@ def createShelf():
     print(f"creates a Shelf to hold books in a LIFO {shelf}")
     return shelf
 
-#method check whether the shelf is full
+# method check whether the shelf is full
 
 def shelfIsEmpty(shelf):
     if len(shelf) == 0:
@@ -21,11 +21,10 @@ def addABookToShelf(shelf, book): #pushing an item to the stack
 
 #remove books from the shelf
 def removeBook(shelf):
-    #check if the stack is empty 
     if len(shelf) == 0:
-        return f"This shelf is empty and one cannot remove a book"
+        return "This shelf is empty and one cannot remove a book"
     else:
-        return shelf.pop() #remove the book from the shelf
+        return shelf.pop()
     # else:
     #     return f" the {book} does not exist in the shelf"
 

@@ -1,0 +1,152 @@
+Introduction to DSA
+
+DS => systematic way of organizing data in the computer. perfomance on data depends on how the data is stored and organised.
+
+Algorithms are set of instructions to solve a problem or a task and get the expected result (Output).
+
+
+Input --> Set of instructions --> Output
+Datastructures divided into primitive (inbuilt DS) and non primitive(user defined DS);
+
+Primitive = [ list, tuples, dictionaries, sets ]
+non Primitives =>{
+    Linear Data Structures: [
+        linked list, array, stack, queue, deque
+    ],
+    Non Linear :[
+        graphs, trees
+    ]
+}
+
+Types of Algorithms:
+
+1. Simple recursive Algorithm ==> Contains a function which calls itself until a base condition is met.
+2. Devide and Conquer Algorithm ==> Divide the problem into smaller subproblems and solve them recursively. The solution of the subproblems are combined to get the solution of the original problem.
+
+3. Dynamic Programming Algorithm ==> Solves a problem by storing the solutions of subproblems and using them to solve the original problem.
+4. Greedy Algorithm ==> Solves a problem by taking the best solution at each step.
+5. Branch and Bound Algorithm ==> Solves a problem by dividing the problem into subproblems and solving them recursively. The solution of the subproblems are combined to get the solution of the original problem.
+6. Backtracking Algorithm ==> Solves a problem by exploring all possible solutions.
+7. Randomized Algorithm ==> Solves a problem by exploring all possible solutions at random.
+8. Iterative Algorithm ==> Solves a problem by exploring all possible solutions at each step.
+
+
+Measure the Efficiency of an algorithm:
+
+   1.Time complexity ==> time taken by the algorithm to solve the problem.
+   2.Space Complexity => amount of memory used by the algorithm to solve the problem.
+
+   Use the theoretical analysis where the complexity of the algorithm is known from its description. It assumes that the time taken to execute a basic operation is constant.
+
+   Basic Operations with constant time complexity:
+   ================
+    1. Declarations of variables.
+    2. Initialization of variables ( assignment ).
+    3. Arithmetic operations 
+    4. calling a function
+    5. Return statement
+    5. Logical operations
+    6. Comparison operations
+
+
+Best Case, Average Case, Worst Case:
+===============================
+
+Best Case ==> the minimal time required for the algorithm to finish executing. ==> O(1);
+Average Case ==> the average time required for the algorithm to finish executing. all cases / number of cases ==> O(n);
+Worst Case ==> the maximal time required for the algorithm to finish executing. ==> O(n);
+
+Asympototic notations ==> Big O, Big Omega, Big Theta
+
+Big O ==> Worst Case
+Big Omega ==> Best Case
+Big Theta ==> Average Case
+
+
+
+
+
+    Time Complexity:
+        O(n) => Linear Time Complexity
+        O(log n) => Logarithmic Time Complexity
+        O(n log n) => N Log N Time Complexity ==> Quassi Linear
+        O(n^2) => Quadratic Time Complexity
+        O(n^3) => Cubic Time Complexity
+        O(n^4) => Quartic Time Complexity
+        O(n^5) => Quintic Time Complexity
+        O(n^6) => Hexic Time Complexity
+        O(n^7) => Septic Time Complexity
+        O(n^8) => Octic Time Complexity
+        O(n^9) => Nonic Time Complexity
+        O(n^10) => Decic Time Complexity
+        O(n^11) => Undecic Time Complexity
+        O(n^12) => Duodecic Time Complexity
+        O(n^13) => Tredecic Time Complexity
+        O(n^14) => Quattuordecic Time Complexity
+        O(n^15) => Quindecic Time Complexity
+        O(n^16) => Sexdecic Time Complexity
+        O(n^17) => Septendecic Time Complexity
+        O(n^18) => Octodecic Time Complexity
+        O(n^19) => Nonidecic Time Complexity
+        O(n^20) => Vigintic Time Complexity
+        O(n^21) => Unvigintic Time Complexity
+        O(n^22) => Duovigintic Time Complexity
+        O(n^23) => Tresvigintic Time Complexity
+        O(n^24) => Quattuorvigintic Time Complexity
+        O(n^25) => Quinvigintic Time Complexity
+        O(n^26) => Sexvigintic Time Complexity
+        O(n^27) => Septenvigintic Time Complexity
+        O(n^28) => Octovigintic Time Complexity
+        O(n^29) => Nonvigintic Time Complexity
+        O(n^30) => trees
+        O(n^31) => Unnonvigintic Time complexity
+        O(n^32) => Duononvigintic Time complexity
+        O(n^33) => Trenonvigintic Time complexity
+        O(n^34) => Quattuornonvigintic Time complexity
+        O(n^35) => Quinonvigintic Time complexity
+        O(n^36) => Sexnonvigintic Time complexity
+        O(n^37) => Septennonvigintic Time complexity
+        O(n^38) => Octononvigintic Time complexity
+        O(n^39) => Nononvigintic Time complexity
+        O(n^40) => Vigintenonvigintic Time complexity
+        O(n^41) => Unvigintenonvigintic Time complexity
+        O(n^42) => Duovigintenonvigintic Time complexity
+        O(n^43) => Tresvigintenonvigintic Time complexity
+        O(n^44) => Quattuorvigintenonvigintic Time complexity
+
+
+
+    Space Complexity:
+        O(1) => Constant Space Complexity
+        O(n) => Linear Space Complexity
+        O(n log n) => Logarithmic Space Complexity
+        O(n^2) => Quadratic Space Complexity
+        O(n^3) => Cubic Space Complexity
+        O(n^4) => Quartic Space Complexity
+        O(n^5) => Quintic Space Complexity
+        O(n^6) => Hexic Space Complexity
+        O(n^7) => Septic Space Complexity
+        O(n^8) => Octic Space Complexity
+        O(n^9) => Nonic Space Complexity
+        O(n^10) => Decic Space Complexity
+        O(n^11) => Undecic Space Complexity
+        O(n^12) => Duodecic Space Complexity
+        O(n^13) => Tredecic Space Complexity
+        O(n^14) => Quattuordecic Space Complexity
+        O(n^15) => Quindecic Space Complexity
+        O(n^16) => Sexdecic Space Complexity
+        O(n^17) => Septendecic Space Complexity
+        O(n^18) => Octodecic Space Complexity
+        O(n^19) => Nonidecic Space Complexity
+        O(n^20) => Vigintic Space Complexity
+        O(n^21) => Unvigintic Space Complexity
+        O(n^22) => Duovigintic Space Complexity
+        O(n^23) => Tresvigintic Space Complexity
+        O(n^24) => Quattuorvigintic Space Complexity
+        O(n^25) => Quinvigintic Space Complexity
+        O(n^26) => Sexvigintic Space Complexity
+        O(n^27) => Septenvigintic Space Complexity
+        O(n^28) => Octovigintic Space Complexity
+        O(n^29) => Nonvigintic Space Complexity
+        O(n^30) => trees
+    
